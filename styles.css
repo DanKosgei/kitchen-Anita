@@ -1,0 +1,22 @@
+#flashy {
+    background-image: url(images/backgrounds/landing.jpg);
+    text-align: center;
+  }
+#happy {
+  background-position: left;
+}
+#food {
+  background-image: url(images/breakfast.jpg);
+  text-align: center;
+
+
+}
+#noon {
+  background-image: url(images/lunch.jpg);
+  text-align: right;
+
+  image-resolution: snap;
+}
+#din {
+  background-image: url(images/dinner.jpg);
+}
