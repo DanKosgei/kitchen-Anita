@@ -5,18 +5,24 @@
 #happy {
   background-position: left;
 }
-#food {
+.breakfast {
   background-image: url(images/breakfast.jpg);
   text-align: center;
 
 
 }
-#noon {
-  background-image: url(images/lunch.jpg);
-  text-align: right;
-
-  image-resolution: snap;
+.lunch {
+  background-image: url(../lunch.jpg);
+  text-align: center;
+  height: 120px;
+  padding: 0;
+  margin: 0;
 }
-#din {
+
+.dinner {
   background-image: url(images/dinner.jpg);
+}
+.drinks{
+  background-image: url(images/drink2.jpg);
+  height:120px;
 }
