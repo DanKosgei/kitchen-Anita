@@ -82,6 +82,21 @@
   height: 210px;
 }
 
+#fastfoodimage{
+  text-align: right;
+  padding-top: 50px;
+}
+#fastfood {
+  padding: 50px;
+  float: right;
+  text-align: left;
+}
+
+#textdrinks{
+  text-align: right;
+  padding: 50px;
+}
+
 #row4{
   background-image: url("images/foodsBg.jpg");
   background-position:center center;
