@@ -81,6 +81,32 @@
   font-style: oblique;
   height: 210px;
 }
+
+#row4{
+  background-image: url("images/foodsBg.jpg");
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed!important;
+  overflow:hidden;
+  height: 636px;
+}
+#food{
+  background-color: #FFFFFF;
+  margin: 10%;
+  margin-left: 10%;
+  width: 100%;
+}
+#foodimages i{
+  font-size: 1.5em;
+  padding-top: 90px;
+}
+
+
+
+
+
+
 #row6{
   background-image: url("images/subscribe.jpg");
   background-position:center center;
@@ -153,7 +179,4 @@
   background-color: orangered;
   text-align: center;
   color: white;
-}
-#dan {
-  background-image: url(images/foodsBg.jpg);
 }
