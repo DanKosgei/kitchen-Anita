@@ -1,24 +1,110 @@
 #flashy {
     background-image: url(images/backgrounds/landing.jpg);
-    text-align: center;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed!important;
+    overflow:hidden;
+    height: 640px;
+    color: #ffffff;
+    font-family: 'Halant', serif;
+    font-weight: 'light';
+ text-align: center;
   }
+#party {
+  background-color: #F15A29;
+  text-align: center;
+
+}
+#btnfa{
+  float: left;
+  color: Transparent
+  background: Transparent;
+}
+
+#row2{
+  height: 210px;
+}
+#row2 h2{
+  padding: 80px;
+}
+#row2 #happyparty h2{
+  padding: 30px;
+}
+#happyhour{
+  font-family: 'Halant', serif;
+  background-color: #FFFFFF;
+  color: grey;
+  text-align: center;
+  height: 105px;
+
+}
+#happyparty{
+  padding: 0px;
+  margin: 0px;
+}
+#partytime{
+  font-family: 'Halant', serif;
+  background-color: #FF4500;
+  color: #FFFFFF;
+  text-align: center;
+  height: 105px;
+  padding-right: 0px; !important
+}
+
+
+
 #happy {
-  background-position: left;
+  text-align: center;
 }
-.breakfast {
-  background-image: url(../breakfast.jpg);
+#breakfast {
+  background-image: url(breakfast.jpg);
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  height: 210px;
+
+
+}
+#lunch {
+  background-image: url(lunch.jpg);
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  height: 210px;
+
+}
+
+#dinner {
+  background-image: url(dinner.jpg);
+  color: white;
+  font-style: oblique;
+  height: 210px;
+}
+
+#email {
+  background-image: url(images/subscribe.jpg);
+  text-align: center;
+  color: white;
+
+}
+#about {
+  text-align: center;
+  padding: inherit;
+}
+#customers {
   text-align: center;
 
-
 }
-.lunch {
-  background-image: url(../lunch.jpg);
+#fastfood {
+  margin: 200
+  padding: 5;
+}
+#menu {
+  background-color: orangered;
   text-align: center;
-  height: 120px;
-  padding: 0;
-  margin: 0;
+  color: white;
 }
-
-.dinner {
-  background-image: url(images/dinner.jpg);
+#dan {
+  background-image: url(images/foodsBg.jpg);
 }
