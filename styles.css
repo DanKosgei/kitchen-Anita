@@ -81,18 +81,67 @@
   font-style: oblique;
   height: 210px;
 }
+#row6{
+  background-image: url("images/subscribe.jpg");
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed!important;
+  overflow:hidden;
+  height: 301px;
+}
 
-#email {
-  background-image: url(images/subscribe.jpg);
+#subscribe{
   text-align: center;
-  color: white;
+  color: #FFFFFF;
+  padding: 100px;
+  margin-left: 15%;
+}
+#subscribe input{
+  width: 80%;
+  background:rgba(255,255,255,0.2);
+  border: none;
+
+  color: #FFFFFF;
+}
+#subscribe input[type="email"].big-dog::-webkit-input-placeholder {
+  color: orange;
+}
+#subscribe button{
+    color: #FFFFFF;
+    background-color: #ff6633;
+    BORDER: 0PX;
+    WIDTH: 100%;
+    height: 100%;
+    padding: 6px;
+}
+
+#subscribe .p-1 {
+  width: 50%;
+  margin-left: 8%;
+}
+#subscribe .p-2{
+  width: 30%;
 
 }
-#about {
-  text-align: center;
-  padding: inherit;
+
+#aboutcustomers.p {
+  color: #ff6633;
+
 }
-#customers {
+#aboutcustomers{
+  margin: 6%;
+  margin-left: 15%;
+  background-color: #f2f2f2;
+  padding:30px;
+  box-shadow: 5px 5px 5px 5px grey;
+  width: 60%;
+}
+#aboutcustomers h2{
+  color: #ff6633;
+
+}
+#customer {
   text-align: center;
 
 }
